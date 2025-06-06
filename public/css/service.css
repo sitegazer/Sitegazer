@@ -1,0 +1,800 @@
+body {
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #010409;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* Hide scrollbar for Chrome, Safari, and Edge */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+body {
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* Internet Explorer and Edge (Legacy) */
+  overflow: auto;               /* Still allow scrolling */
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.hero {
+    background-image: url('/img/BACKground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
+    position: relative;
+    width: 100%;
+}
+
+.menu {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    height: 27px;
+    width: 32px;
+}
+
+.logo-img {
+    width: 58px;
+    height: 32px;
+    position: absolute;
+    left: 23px;
+    top: 21px;
+}
+
+.logo-name {
+    font-size: 22px;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: 91px;
+    top: 21px;
+}
+
+#cta0 {
+    visibility: hidden;
+}
+
+.navbar-collapse {
+    position: fixed;
+    overflow-x: hidden;
+    left: 5%;
+    top: 80px;
+    width: 90%;
+    max-height: 50vh;
+    background-color: #010409;
+    overflow-y: auto;
+    z-index: 1050;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+
+.navbar-toggler-icon {
+    border: none !important;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 24px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-collapse.show {
+    transform: translateY(0);
+}
+
+.navbar-collapse .nav-link {
+    display: block;
+    margin: 1.2%;
+    width: 100% !important;
+    color: #BDBDD9 !important;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.navbar-collapse .nav-link:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-collapse .nav-link:focus-visible {
+    outline: 2px solid #6041F9;
+    outline-offset: 2px;
+}
+
+.active-link {
+    color: white !important;
+    display: block;
+    margin: 1.2%;
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.nav-link {
+    background-color: #010409;
+    color: white !important;
+    margin: 0 5px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: #010409;
+    color: white !important;
+    box-shadow: none;
+}
+
+.nav-link:focus-visible {
+    outline: 2px solid #6041F9;
+    outline-offset: 2px;
+}
+
+h1 {
+    position: relative;
+    top: 110px;
+    font-size: 32px;
+    height: auto;
+    width: 315px;
+    background: linear-gradient(-63deg, #DED8FF, #8A72FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    justify-self: center;
+}
+
+.main-sub {
+    position: relative;
+    top: 120px;
+    font-size: 11px;
+    height: auto;
+    font-weight: 300;
+    color: #D9D7EF;
+    width: 90%;
+    justify-self: center;
+}
+
+#main-img {
+    height: 68%;
+    width: 90%;
+    position: relative;
+    top: 110px;
+
+}
+
+.content h2 {
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    top: 0px;
+    margin: 10PX;
+    position: relative;
+}
+
+.content p {
+    font-size: 10px;
+    color: #D9D7EF;
+    font-weight: 300;
+    width: 70%;
+    margin-top: 10px;
+    position: relative;
+    justify-self: center;
+}
+
+#design-img {
+    position: relative;
+    width: 85%;
+}
+
+#design-value {
+    position: relative;
+    justify-self: center;
+    top: 10px;
+}
+
+.responsive-dev {
+    position: relative;
+    top: 50px;
+}
+
+.responsive-dev p {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.responsive-dev img {
+    width: 90%;
+    position: relative;
+    padding-top: 25px;
+}
+
+#dev-img {
+    width: auto;
+}
+
+.seo {
+    position: relative;
+    top: 90px;
+}
+
+.seo p {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.seo img {
+    width: 90%;
+    position: relative;
+    padding-top: 25px;
+}
+
+#seo-img {
+    width: auto;
+}
+
+.final-cta {
+    position: relative;
+    top: 120px;
+    width: 85%;
+    height: 220px;
+    background: linear-gradient(-124deg, #6041F0, #A298D4);
+    justify-self: center;
+    border-radius: 16px;
+}
+
+.final-cta h2 {
+    padding-top: 25px;
+    font-size: 21px;
+    color: white;
+    font-weight: 500;
+}
+
+.final-cta p {
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    width: 80%;
+}
+
+.final-cta button {
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    color: #14113A;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.brand-foot {
+    position: relative;
+    top: 200px;
+    background-color: #010409;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.brand-foot img {
+    position: relative;
+    left: -10px;
+    width: 66px;
+    height: 36px;
+    top: 20px;
+}
+
+.brand-foot p {
+    position: relative;
+    left: -0px;
+    color: white;
+    font-size: 22px;
+    top: 25px;
+}
+
+#foot-head {
+    font-size: 22px;
+    color: white;
+    position: relative;
+    top: 30px;
+    justify-self: center;
+}
+
+#foot-p {
+    position: relative;
+    top: 30px;
+    color: #BDBDD9;
+    font-size: 16px;
+    width: 80%;
+    justify-self: center;
+}
+
+#link1 {
+    width: 40%;
+    display: inline-block;
+}
+
+#foot-head1 {
+    font-size: 22px;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: -10%;
+    justify-self: center;
+}
+
+#link1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+    position: relative;
+    top: 40px;
+    left: -10%;
+}
+
+#link1 ul li a {
+    margin: 12px 0;
+    font-size: 14px;
+    color: white !important;
+    text-decoration: none;
+    display: block;
+}
+
+#link2 {
+    width: 40%;
+    display: inline-block;
+}
+
+#foot-head2 {
+    font-size: 22px;
+    color: white;
+    position: relative;
+    top: -25px;
+    left: 0%;
+    justify-self: center;
+}
+
+#link2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    position: relative;
+    top: -15px;
+    left: -0%;
+}
+
+#link2 ul li a {
+    margin: 12px 0;
+    font-size: 14px;
+    color: white !important;
+    text-decoration: none;
+    display: block;
+}
+
+#link3 {
+    width: 80%;
+    justify-self: center;
+}
+
+#foot-head3 {
+    font-size: 22px;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 0%;
+    justify-self: center;
+}
+
+#link3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    position: relative;
+    top: 40px;
+    left: -0%;
+}
+
+#link3 ul li a {
+    margin: 12px 0;
+    font-size: 14px;
+    color: white !important;
+    text-decoration: none;
+    display: block;
+}
+
+@media (min-width: 708px) {
+    h1 {
+        font-size: 44px;
+        width: 60%;
+    }
+
+    .main-sub {
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .content {
+        top: 250px;
+        position: relative;
+    }
+
+    .content h2 {
+        font-size: 32px;
+    }
+
+    .content p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    #design-value {
+        width: 25%;
+    }
+
+    #seo-img {
+        width: 28%;
+    }
+
+    #dev-img {
+        width: 35%;
+    }
+
+    .final-cta {
+        height: 280px;
+        width: 75%;
+    }
+
+    .final-cta h2 {
+        padding-top: 25px;
+        font-size: 28px;
+        width: 60%;
+        justify-self: center;
+    }
+
+    .final-cta p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .final-cta button {
+        width: 40%;
+        height: 40px;
+        font-size: 18px;
+        position: absolute;
+        bottom: 40px;
+        left: 30%;
+    }
+
+    footer {
+        position: relative;
+        top: 250px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 63px;
+        height: 45px;
+        font-size: 16px;
+        background-color: transparent;
+        width: 50%;
+        left: 25%;
+        box-shadow: 0 0 0 2px rgba(189, 189, 217, 0.35);
+        border-radius: 100px;
+        overflow-y: hidden;
+    }
+
+    .navbar-nav {
+        position: relative;
+        right: 28%;
+
+    }
+
+    .navbar li {
+        margin: 4%;
+        position: relative;
+        left: -20px;
+    }
+
+    #cta0 {
+        position: absolute;
+        right: 4%;
+        top: 19px;
+        font-size: 16px;
+        width: 160px;
+        height: 45px;
+        visibility: visible;
+        background-color: #6041F9;
+        color: white;
+        border-radius: 100px;
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+        border: solid 2px #6041F9;
+    }
+
+    h1 {
+        font-size: 48px;
+        width: 50%;
+    }
+
+    .content {
+        top: 400px;
+    }
+
+    .content h2 {
+        font-size: 36px;
+    }
+
+    .content p {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .final-cta {
+        height: 310px;
+        width: 70%;
+        margin-top: 70px;
+    }
+
+    footer {
+        top: 400px;
+    }
+        .brand-foot {
+        position: relative;
+        background-color: #010409;
+        width: 100%;
+    }
+
+    .brand-foot img {
+        position: absolute;
+        left: 50px;
+        width: 66px;
+        height: 36px;
+        top: 35px;
+    }
+
+    .brand-foot p {
+        position: absolute;
+        left: 125px;
+        color: white;
+        font-size: 22px;
+        top: 35px;
+    }
+
+    #foot-head {
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 105px;
+        left: 50px;
+
+    }
+
+    #foot-p {
+        position: absolute;
+        top: 160px;
+        color: #BDBDD9;
+        font-size: 16px;
+        width: 35%;
+        left: 40px
+    }
+
+    #link1 {
+        width: 20%;
+        display: inline-block;
+    }
+
+    #foot-head1 {
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 30px;
+        right: -30%;
+        justify-self: center;
+    }
+
+    #link1 ul {
+        list-style: none;
+        padding: 0;
+        margin: 0px;
+        position: absolute;
+        top: 80px;
+        right: -30%;
+    }
+
+    #link2 {
+        width: 20%;
+        display: inline-block;
+    }
+
+    #foot-head2 {
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 30px;
+        right: -50%;
+        justify-self: center;
+    }
+
+    #link2 ul {
+        list-style: none;
+        padding: 0;
+        margin: 10px;
+        position: absolute;
+        top: 80px;
+        right: -50%;
+    }
+
+    #link3 {
+        width: 20%;
+        display: inline-block;
+    }
+
+    #foot-head3 {
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 30px;
+        right: -80%;
+        justify-self: center;
+    }
+
+    #link3 ul {
+        list-style: none;
+        padding: 0;
+        margin: 10px;
+        position: absolute;
+        top: 80px;
+        right: -80%;
+    }
+
+    #link3 ul li a {
+        margin: 12px 0;
+        font-size: 14px;
+        color: white !important;
+        text-decoration: none;
+        display: block;
+    }
+}
+@media (min-width: 1200px){
+    .navbar-collapse {
+        position: absolute;
+        top: 275%;
+        height: 50px;
+        font-size: 16px;
+        background-color: transparent;
+        width: 50%;
+        left: 25%;
+        box-shadow: 0 0 0 2px rgba(189, 189, 217, 0.35);
+        border-radius: 100px;
+        overflow-y: hidden;
+    }
+
+    .logo-img {
+        width: 85px;
+        height: 47px;
+        left: 3%;
+    }
+
+    .logo-name {
+        font-size: 28px;
+        left: 10%;
+    }
+
+    .navbar-nav {
+        position: relative;
+        right: 28%;
+
+    }
+
+    .navbar li {
+        margin: 8%;
+        position: relative;
+        left: -35%;
+        font-size: 18px;
+    }
+
+    #cta0 {
+        position: absolute;
+        right: 5%;
+        top: 105%;
+        font-size: 16px;
+        width: 174px;
+        height: 46px;
+        visibility: visible;
+    }
+    .main-sub{
+        padding-top: 15px;
+        font-size: 18px;
+        width: 60%;
+    }
+    
+    h1{
+        font-size: 56px;
+        width: 40%;
+    }
+    #main-img{
+        width: 70%;
+    }
+    .content{
+        top: 550px;
+    }
+    .content h2{
+        font-size: 44px;
+    }
+    .content p{
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    #design-img{
+        width: 80%;
+    }
+    #design-value{
+        width: 20%;
+    }
+    .responsive-dev{
+        margin-top: 80px;
+    }
+    .responsive-dev img{
+        width: 80%;
+    }
+    #dev-img{
+        width: 25%;
+    }
+    .seo{
+        margin-top: 80px;
+    }
+    .seo img{
+        width: 80%;
+    }
+    #seo-img{
+        width: 25%;
+    }
+    .final-cta{
+        height: 400px;
+        width: 60%;
+        margin-top: 150px;
+    }
+    .final-cta h2{
+        padding-top: 65px;
+        font-size: 32px;}
+        
+    .final-cta button{
+        height: 54px;
+        font-size: 22px;
+    }
+    footer{
+        top: 600px;
+    }
+}

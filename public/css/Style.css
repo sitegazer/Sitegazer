@@ -1,0 +1,1715 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #010409;
+    text-align: center;
+    max-width: 1440px;
+    font-family: "Roboto", sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+body {
+  scrollbar-width: none;        /* Firefox */
+  -ms-overflow-style: none;     /* Internet Explorer and Edge (Legacy) */
+  overflow: auto;               /* Still allow scrolling */
+}
+html,
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url('/img/BACKground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 85vh;
+    position: relative;
+    width: 100%;
+
+}
+
+#tag-img1 {
+    height: 21px;
+    width: 21px;
+    margin-right: 5px;
+}
+
+#tag-p1 {
+    display: inline-block;
+}
+
+#tag-img2 {
+    height: 21px;
+    width: 21px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+}
+
+#tag-p2 {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+
+.foot-head {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 150px;
+    display: inline-block;
+}
+ .final-cta {
+    position: relative;
+    top: 300px; 
+    right: 43%;
+}
+
+
+.tag {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    border: #6041F9 solid 2px;
+    border-radius: 15px;
+    height: 27px;
+    width: 97px;
+    justify-self: center;
+    justify-content: center;
+    background-color: #15103A;
+
+
+}
+
+.menu {
+    position: absolute;
+    top: 23px;
+    right: 23px;
+    height: 27px;
+    width: 32px;
+}
+
+#tag2 {
+
+    position: relative;
+    height: 35px;
+    width: 150px;
+    top: 60px;
+
+}
+
+.logo-name {
+    font-size: 22px;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: 91px;
+    top: 21px;
+}
+
+#tag3 {
+    position: relative;
+    height: 35px;
+    width: 185px;
+    top: 235px;
+}
+
+#image2 {
+    position: relative;
+    top: -160px;
+}
+
+.logo-img {
+    width: 58px;
+    height: 32px;
+    position: absolute;
+    left: 23px;
+    top: 21px;
+}
+
+
+
+
+#facility-sub {
+    position: relative;
+    top: 370px;
+    height: 62px;
+    width: 303px;
+    justify-self: center;
+    font-size: 13px;
+
+}
+
+#cta3 {
+    position: relative;
+    top: 480px;
+    right: 23%;
+}
+
+#value-head {
+    position: relative;
+    top: 25px;
+    font-size: 32px;
+    width: 300px;
+    justify-self: center;
+}
+
+#facilities-img {
+    position: relative;
+    top: 380px;
+    left: 15%;
+    justify-self: center;
+}
+
+#facilities {
+    position: relative;
+    top: 350px;
+    height: 62px;
+    width: 315px;
+    justify-self: center;
+    font-size: 26px;
+    
+}
+
+#value-sub {
+    position: relative;
+    top: 35px;
+    font-size: 14px;
+    width: 300px;
+    justify-self: center;
+}
+
+.navbar-toggler-icon {
+    border: none !important;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 24px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+nav {
+    height: 75px;
+    width: 100%;
+}
+
+#cta0 {
+    visibility: hidden;
+}
+
+.navbar-collapse {
+    position: fixed;
+    overflow-x: hidden;
+    left: 5%;
+    top: 80px;
+    width: 90%;
+    max-height: 50vh;
+    background-color: #010409;
+    overflow-y: auto;
+    z-index: 1050;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+
+.navbar-collapse.show {
+    transform: translateY(0);
+}
+
+.navbar-collapse .nav-link {
+    display: block;
+    margin: 1.2%;
+    width: 100%;
+    color: #BDBDD9 !important;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.navbar-collapse .nav-link:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-collapse .nav-link:focus-visible {
+    outline: 2px solid #6041F9;
+    outline-offset: 2px;
+}
+
+.active-link {
+    color: white !important;
+    display: block;
+    margin: 1.2%;
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.nav-link {
+    background-color: #010409;
+    color: white !important;
+    margin: 0 5px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: #010409;
+    color: white !important;
+    box-shadow: none;
+}
+
+.nav-link:focus-visible {
+    outline: 2px solid #6041F9;
+    outline-offset: 2px;
+}
+
+
+#value-sub-1 {
+    position: relative;
+    top: 135px;
+    font-size: 14px;
+    width: 330px;
+    justify-self: center;
+}
+
+#value-head-1 {
+    position: relative;
+    top: 120px;
+    font-size: 24px;
+    width: 300px;
+    justify-self: center;
+}
+
+#final-cta {
+    position: relative;
+    top: 300px;
+    right: 43%;
+}
+
+#value-sub-2 {
+    position: relative;
+    top: 235px;
+    font-size: 14px;
+    width: 330px;
+    justify-self: center;
+}
+
+#value-head-2 {
+    position: relative;
+    top: 220px;
+    font-size: 24px;
+    width: 300px;
+    justify-self: center;
+}
+
+#value-img-1 {
+    position: relative;
+    top: 90px;
+    right: 33%;
+}
+
+.roboto-font {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+#hero-img {
+    position: relative;
+    top: 175px;
+}
+
+
+
+.cta {
+    background-color: #6041F9;
+    position: absolute;
+
+    color: white;
+    border: none;
+
+    padding: 0px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    border: solid 2px #6041F9;
+    height: 40px;
+    width: 135px;
+}
+
+#cta2 {
+    position: absolute;
+    right: 12%;
+    top: 387px;
+
+}
+
+#cta1 {
+    position: absolute;
+    top: 387px;
+    left: 12%;
+    color: white;
+    background-color: #6041F9;
+
+
+    display: inline-block;
+}
+
+.hero {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+
+}
+
+#hero-heading {
+    position: absolute;
+    top: 297px;
+}
+
+.heading {
+    position: relative;
+    top: 40px;
+    font-size: 32px;
+    height: auto;
+    width: 330px;
+    background: linear-gradient(-63deg, #DED8FF, #8A72FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.heading1 {
+    position: relative;
+    top: 5px;
+    font-size: 32px;
+    height: auto;
+    width: 330px;
+    background: linear-gradient(-63deg, #DED8FF, #8A72FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.subheading {
+    color: #D9D7EF;
+    font-size: 14px;
+    height: 34px;
+    width: 300px;
+    text-align: center;
+    justify-self: center;
+}
+
+#tag-p3 {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+
+.footer {
+    background-color: #14113A;
+    position: relative;
+    top: 1650px;
+    height: 540px;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+
+}
+
+#footer-name {
+    position: absolute;
+    right: 5%;
+    top: 20px;
+}
+
+#footer-logo {
+    position: absolute;
+    left: 30%;
+}
+
+#footer-sub {
+    position: absolute;
+    top: 115px;
+    text-align: center;
+    left: 8%;
+    width: 330px;
+
+}
+
+h5 {
+    font-size: 16px;
+    color: white;
+    position: relative;
+    top: 80px;
+}
+
+h1 {
+    font-size: 31px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    justify-self: center;
+    height: 76px;
+    width: 314px;
+    padding-top: 30px;
+
+}
+
+#tag-img3 {
+    height: 21px;
+    width: 21px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+}
+
+.services{
+    padding-top: 80px;
+}
+
+#service-sub {
+    padding-top: 42px;
+}
+
+.service-card {
+    height: 217px;
+    width: 300px;
+    background-color: #14113A;
+    justify-self: center;
+    justify-items: center;
+    position: relative;
+    top: 65px;
+    border-radius: 9.73px;
+    margin: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 45px;
+}
+
+.card-icon {
+    position: relative;
+    top: 18px;
+    width: 80px;
+    height: 72px;
+}
+
+#value-img-2 {
+    position: relative;
+    top: 190px;
+    right: 33%;
+}
+
+.card-sub {
+    position: relative;
+    top: 50px;
+    font-size: 14px;
+    color: #B8B5B5;
+    width: 245px;
+    font-weight: 500;
+}
+.brand-foot {
+    position: relative;
+    top: 1650px;
+    background-color: #010409;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.brand-foot img {
+    position: relative;
+    left: -10px;
+    width: 66px;
+    height: 36px;
+    top: 20px;
+}
+
+.brand-foot p {
+    position: relative;
+    left: -0px;
+    color: white;
+    font-size: 22px;
+    top: 25px;
+}
+
+#foot-head {
+    font-size: 22px;
+    color: white;
+    position: relative;
+    top: 30px;
+    justify-self: center;
+}
+
+#foot-p {
+    position: relative;
+    top: 30px;
+    color: #BDBDD9;
+    font-size: 16px;
+    width: 80%;
+    justify-self: center;
+}
+
+#link1 {
+    width: 40%;
+    display: inline-block;
+}
+
+#foot-head1 {
+    font-size: 22px;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: -10%;
+    justify-self: center;
+}
+
+#link1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+    position: relative;
+    top: 40px;
+    left: -10%;
+}
+
+#link1 ul li a {
+    margin: 12px 0;
+    font-size: 14px;
+    color: white !important;
+    text-decoration: none;
+    display: block;
+}
+
+#link2 {
+    width: 40%;
+    display: inline-block;
+}
+
+#foot-head2 {
+    font-size: 22px;
+    color: white;
+    position: relative;
+    top: -25px;
+    left: 0%;
+    justify-self: center;
+}
+
+#link2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    position: relative;
+    top: -15px;
+    left: -0%;
+}
+
+#link2 ul li a {
+    margin: 12px 0;
+    font-size: 14px;
+    color: white !important;
+    text-decoration: none;
+    display: block;
+}
+
+#link3 {
+    width: 80%;
+    justify-self: center;
+}
+
+#foot-head3 {
+    font-size: 22px;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 0%;
+    justify-self: center;
+}
+
+#link3 ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    position: relative;
+    top: 40px;
+    left: -0%;
+}
+
+#link3 ul li a {
+    margin: 12px 0;
+    font-size: 14px;
+    color: white !important;
+    text-decoration: none;
+    display: block;
+}
+
+@media (min-width: 708px) {
+
+    /* tablets */
+    .heading {
+        width: 75%;
+        font-size: 52px;
+    }
+
+    .heading1 {
+        width: 100%;
+        font-size: 52px;
+    }
+
+    #hero-heading {
+        font-size: 24px;
+        width: 60%;
+        display: block;
+        padding-top: 70px;
+    }
+
+    #cta1 {
+        position: relative;
+        top: -350px;
+        left: -140px;
+        font-size: 20px;
+        width: 165px;
+        height: 50px;
+    }
+
+    #cta2 {
+        position: relative;
+        top: -400px;
+        left: 150px;
+        font-size: 20px;
+        width: 185px;
+        height: 50px;
+    }
+
+    #hero-img {
+        width: 65%;
+    }
+
+    #tag1 {
+        position: relative;
+        top: 300px;
+        width: 155px;
+        height: 37px;
+        flex-direction: row;
+
+    }
+
+    #tag-img1 {
+        height: 24px;
+        width: 24px;
+        position: relative;
+        right: 10px;
+        top: 2px;
+    }
+
+    #tag-p1 {
+        font-size: 17px;
+        position: relative;
+        top: 4px;
+    }
+
+    h1 {
+        font-size: 44px;
+        position: relative;
+        top: 300px;
+        width: 400px;
+    }
+
+    #service-sub {
+        font-size: 16px;
+        position: relative;
+        top: 350px;
+        width: 400px;
+
+    }
+
+    .service-card {
+        position: relative;
+        top: 420px;
+        width: 500px;
+        height: 317px;
+        margin: 40px;
+    }
+
+    .card-icon {
+        width: 120px;
+        height: 106px;
+        margin-top: 15px;
+    }
+
+    h2 {
+        font-size: 32px;
+
+    }
+
+    .card-sub {
+        font-size: 18px;
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    #tag2 {
+        width: 200px;
+        height: 42px;
+        flex-direction: row;
+        position: relative;
+        top: 430px;
+    }
+
+    #tag-img2 {
+        height: 24px;
+        width: 24px;
+        position: relative;
+        right: 2px;
+        top: 2px;
+    }
+
+    #tag-p2 {
+        font-size: 17px;
+
+    }
+
+    #image2 {
+        position: relative;
+        top: 160px;
+        width: 60%;
+    }
+
+    #facilities {
+        position: relative;
+        top: 850px;
+        font-size: 44px;
+        width: 500px;
+    }
+
+    #facility-sub {
+        position: relative;
+        top: 930px;
+        font-size: 18px;
+        width: 600px;
+    }
+
+    #facilities-img {
+        position: relative;
+        top: 950px;
+        width: 35%;
+        left: 75px;
+    }
+
+    #cta3 {
+        position: relative;
+        top: 1100px;
+        left: -155px;
+        font-size: 20px;
+        width: 185px;
+        height: 50px;
+    }
+
+    #tag3 {
+        position: relative;
+        top: 750px;
+        left: -15px;
+        width: 240px;
+        height: 42px;
+        flex-direction: row;
+    }
+
+    #tag-img3 {
+        height: 24px;
+        width: 24px;
+        position: relative;
+        left: 1px;
+        top: 2px;
+    }
+
+    #tag-p3 {
+        font-size: 17px;
+
+    }
+
+    #value-head {
+        font-size: 44px;
+        width: 400px;
+        padding-top: 20px;
+    }
+
+    #value-sub {
+        font-size: 18px;
+        width: 600px;
+        padding-top: 25px;
+    }
+
+    #value-img-1 {
+        position: relative;
+        left: -70px;
+        width: 400px;
+    }
+
+    #value-head-1 {
+        font-size: 32px;
+        width: 400px;
+        position: relative;
+        left: 10px;
+    }
+
+    #value-sub-1 {
+        font-size: 16px;
+        width: 500px;
+        position: relative;
+        left: 10px;
+        padding-top: 10px;
+    }
+
+    #value-img-2 {
+        position: relative;
+        width: 400px;
+        left: -70px;
+    }
+
+    #value-head-2 {
+        font-size: 32px;
+        width: 400px;
+        position: relative;
+        left: 10px;
+    }
+
+    #value-sub-2 {
+        font-size: 16px;
+        width: 500px;
+        position: relative;
+        left: 10px;
+        padding-top: 10px;
+    }
+
+    .final-cta img {
+        right : 5%;
+        position: relative;
+        width: 200%;
+        
+    }
+    .brand-foot{
+        position: relative;
+        top: 2450px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* Desktop */
+
+    .navbar-collapse {
+        position: absolute;
+        top: 63px;
+        height: 45px;
+        font-size: 16px;
+        background-color: transparent;
+        width: 50%;
+        left: 25%;
+        box-shadow: 0 0 0 2px rgba(189, 189, 217, 0.35);
+        border-radius: 100px;
+        overflow-y: hidden;
+    }
+
+    .navbar-nav {
+        position: relative;
+        right: 28%;
+
+    }
+
+    .navbar li {
+        margin: 4%;
+        position: relative;
+        left: -20px;
+    }
+
+    #cta0 {
+        position: absolute;
+        right: 4%;
+        top: 19px;
+        font-size: 16px;
+        width: 160px;
+        height: 45px;
+        visibility: visible;
+    }
+
+    .heading {
+        width: 85%;
+        height: 20%;
+        font-size: 50px;
+    }
+
+    .heading1 {
+        width: 100%;
+        height: 20%;
+        font-size: 50px;
+    }
+
+    #hero-heading {
+        font-size: 20px;
+        width: 60%;
+        display: block;
+        padding-top: 30px;
+    }
+
+    #cta1 {
+        position: relative;
+        top: -500px;
+        left: -140px;
+        font-size: 22px;
+        width: 195px;
+        height: 52px;
+    }
+
+    #cta2 {
+        position: relative;
+        top: -550px;
+        left: 150px;
+        font-size: 22px;
+        width: 220px;
+        height: 52px;
+    }
+
+    #hero-img {
+        width: 644.8px;
+    }
+
+    .tag {
+        border-radius: 100px;
+    }
+
+    #tag1 {
+        position: relative;
+        top: 470px;
+        width: 155px;
+        height: 37px;
+        flex-direction: row;
+
+    }
+
+    #tag-img1 {
+        height: 24px;
+        width: 24px;
+        position: relative;
+        right: 10px;
+        top: 2px;
+    }
+
+    #tag-p1 {
+        font-size: 17px;
+        position: relative;
+        top: 4px;
+    }
+    .services{
+        padding-top: 10px;
+    }
+    h1 {
+        font-size: 50px;
+        position: relative;
+        top: 480px;
+        width: 100%;
+    }
+
+    #service-sub {
+        font-size: 24px;
+        position: relative;
+        top: 480px;
+        width: 700px;
+
+    }
+
+    .service-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0px;
+        /* space between cards */
+    }
+
+    .service-card {
+        position: relative;
+        top: 580px;
+        width: 280px;
+        height: 280px;
+        margin: 20px;
+    }
+
+    .card-icon {
+        width: 100px;
+        height: 80px;
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .card-sub {
+        font-size: 16px;
+        width: 250px;
+        margin-top: 20px;
+    }
+
+    #tag2 {
+        width: 200px;
+        height: 42px;
+        flex-direction: row;
+        position: relative;
+        top: 620px;
+    }
+
+    #tag-img2 {
+        height: 24px;
+        width: 24px;
+        position: relative;
+        right: 2px;
+        top: 2px;
+    }
+
+    #tag-p2 {
+        font-size: 17px;
+
+    }
+
+    #image2 {
+        position: relative;
+        top: 650px;
+        width: 40%;
+        left: 5%;
+    }
+
+    .facility-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 55px;
+        /* space between cards */
+        text-align: left;
+    }
+
+    #facilities {
+        position: relative;
+        top: 660px;
+        font-size: 32px;
+        width: 400px;
+
+    }
+
+    #facility-sub {
+        position: relative;
+        top: 680px;
+        font-size: 16px;
+        width: 400px;
+    }
+
+    #facilities-img {
+        position: relative;
+        top: 720px;
+        width: 70%;
+        left: 0px;
+    }
+
+    #cta3 {
+        position: relative;
+        top: 770px;
+        left: 15%;
+        font-size: 20px;
+        width: 185px;
+        height: 50px;
+    }
+
+    #tag3 {
+        position: relative;
+        top: 820px;
+        left: 0%;
+        width: 270px;
+        height: 48px;
+        flex-direction: row;
+    }
+
+    #tag-img3 {
+        height: 24px;
+        width: 24px;
+        position: relative;
+        left: -5px;
+        top: 6px;
+    }
+
+    #tag-p3 {
+        font-size: 17px;
+        top: 8px;
+
+    }
+
+    #value-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0px;
+        text-align: left;
+        position: relative;
+        top: 40px;
+    }
+
+    #value-head {
+        font-size: 44px;
+        width: 250%;
+        padding-top: 20px;
+    }
+
+    #value-sub {
+        font-size: 18px;
+        width: 300%;
+        padding-top: 15px;
+    }
+
+    #value-img-1 {
+        position: relative;
+        left: -5%;
+        width: 95%;
+    }
+
+    #value-head-1 {
+        font-size: 26px;
+        width: 400px;
+        position: relative;
+        left: -5%;
+    }
+
+    #value-sub-1 {
+        font-size: 16px;
+        width: 100%;
+        position: relative;
+        left: -5%;
+        text-align: left;
+
+    }
+
+    #value-img-2 {
+        position: relative;
+        width: 100%;
+        left: 15%;
+        top: 20%;
+    }
+
+    #value-head-2 {
+        font-size: 26px;
+        width: 400px;
+        position: relative;
+        left: 17%;
+        top: 28%;
+    }
+
+    #value-sub-2 {
+        font-size: 16px;
+        width: 400px;
+        position: relative;
+        left: 15%;
+        top: 31%;
+
+    }
+
+    #final-cta {
+        width: 250%;
+        height: auto;
+        position: relative;
+        left: -75%;
+    }
+    .brand-foot{
+        position: relative;
+        top: 2100px;
+    }
+        .brand-foot img {
+        position: absolute;
+        left: 50px;
+        width: 66px;
+        height: 36px;
+        top: 35px;
+    }
+
+    .brand-foot p {
+        position: absolute;
+        left: 125px;
+        color: white;
+        font-size: 22px;
+        top: 35px;
+    }
+
+    #foot-head {
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 105px;
+        left: 50px;
+
+    }
+
+    #foot-p {
+        position: absolute;
+        top: 160px;
+        color: #BDBDD9;
+        font-size: 16px;
+        width: 35%;
+        left: 40px
+    }
+
+    #link1 {
+        width: 20%;
+        display: inline-block;
+    }
+
+    #foot-head1 {
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 30px;
+        right: -30%;
+        justify-self: center;
+    }
+
+    #link1 ul {
+        list-style: none;
+        padding: 0;
+        margin: 0px;
+        position: absolute;
+        top: 80px;
+        right: -30%;
+    }
+
+    #link2 {
+        width: 20%;
+        display: inline-block;
+    }
+
+    #foot-head2 {
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 30px;
+        right: -50%;
+        justify-self: center;
+    }
+
+    #link2 ul {
+        list-style: none;
+        padding: 0;
+        margin: 10px;
+        position: absolute;
+        top: 80px;
+        right: -50%;
+    }
+
+    #link3 {
+        width: 20%;
+        display: inline-block;
+    }
+
+    #foot-head3 {
+        font-size: 22px;
+        color: white;
+        position: absolute;
+        top: 30px;
+        right: -80%;
+        justify-self: center;
+    }
+
+    #link3 ul {
+        list-style: none;
+        padding: 0;
+        margin: 10px;
+        position: absolute;
+        top: 80px;
+        right: -80%;
+    }
+
+    #link3 ul li a {
+        margin: 12px 0;
+        font-size: 14px;
+        color: white !important;
+        text-decoration: none;
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+
+
+    /* Desktop */
+
+    .navbar-collapse {
+        position: absolute;
+        top: 95%;
+        height: 50px;
+        font-size: 16px;
+        background-color: transparent;
+        width: 50%;
+        left: 25%;
+        box-shadow: 0 0 0 2px rgba(189, 189, 217, 0.35);
+        border-radius: 100px;
+        overflow-y: hidden;
+    }
+
+    .logo-img {
+        width: 85px;
+        height: 47px;
+        left: 3%;
+    }
+
+    .logo-name {
+        font-size: 28px;
+        left: 10%;
+    }
+
+    .navbar-nav {
+        position: relative;
+        right: 28%;
+
+    }
+
+    .navbar li {
+        margin: 8%;
+        position: relative;
+        left: -35%;
+        font-size: 18px;
+    }
+
+    #cta0 {
+        position: absolute;
+        right: 5%;
+        top: 35%;
+        font-size: 16px;
+        width: 174px;
+        height: 46px;
+        visibility: visible;
+    }
+
+    .heading {
+        width: 85%;
+        height: 20%;
+        font-size: 58px;
+        padding-top: 85px;
+    }
+
+    .heading1 {
+        width: 100%;
+        height: 20%;
+        font-size: 58px;
+
+    }
+
+    #hero-heading {
+        font-size: 24px;
+        width: 60%;
+        display: block;
+        padding-top: 30px;
+        top: 360px;
+    }
+
+    #cta1 {
+        position: relative;
+        top: -500px;
+        left: -140px;
+        font-size: 24px;
+        width: 195px;
+        height: 52px;
+    }
+
+    #cta2 {
+        position: relative;
+        top: -550px;
+        left: 150px;
+        font-size: 24px;
+        width: 220px;
+        height: 52px;
+    }
+
+    #hero-img {
+        width: 644.8px;
+        top: 170px;
+    }
+
+    .tag {
+        border-radius: 100px;
+
+    }
+
+    #tag1 {
+        position: relative;
+        top: 470px;
+        width: 155px;
+        height: 37px;
+        flex-direction: row;
+        margin-top: 30px;
+
+    }
+
+    #tag-img1 {
+        height: 24px;
+        width: 24px;
+        position: relative;
+        right: 10px;
+        top: 2px;
+    }
+
+    #tag-p1 {
+        font-size: 17px;
+        position: relative;
+        top: 4px;
+    }
+
+    h1 {
+        font-size: 50px;
+        position: relative;
+        top: 480px;
+        width: 100%;
+    }
+
+
+
+    .service-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0px;
+        /* space between cards */
+    }
+
+    .service-card {
+        position: relative;
+        top: 580px;
+        width: 374px;
+        height: 300px;
+        margin: 30px;
+    }
+
+    .card-icon {
+        width: 120px;
+        height: 100px;
+        position: relative;
+        top: 10px;
+    }
+
+    #service-sub {
+        font-size: 24px;
+        position: relative;
+        top: 480px;
+        width: 700px;
+
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .card-sub {
+        font-size: 16px;
+        width: 250px;
+
+    }
+
+    #tag2 {
+        width: 200px;
+        height: 42px;
+        flex-direction: row;
+        position: relative;
+        top: 620px;
+    }
+
+    #tag-img2 {
+        height: 24px;
+        width: 24px;
+        position: relative;
+        right: 2px;
+        top: 2px;
+    }
+
+    #tag-p2 {
+        font-size: 17px;
+
+    }
+
+    #image2 {
+        position: relative;
+        top: 670px;
+        width: 40%;
+        left: 5%;
+    }
+
+    .facility-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 55px;
+        /* space between cards */
+        text-align: left;
+    }
+
+    #facilities {
+        position: relative;
+        top: 690px;
+        font-size: 32px;
+        width: 400px;
+        left: -10%;
+
+    }
+
+    #facilities-sub {
+        position: relative;
+        top: 730px;
+        font-size: 16px;
+        width: 400px;
+        left: -10%;
+    }
+
+    #facilities-img {
+        position: relative;
+        top: 770px;
+        width: 70%;
+        left: -10%;
+    }
+
+    #cta3 {
+        position: relative;
+        top: 820px;
+        left: 3%;
+        font-size: 20px;
+        width: 185px;
+        height: 50px;
+    }
+
+    #tag3 {
+        position: relative;
+        top: 780px;
+        left: 0%;
+        width: 270px;
+        height: 48px;
+        flex-direction: row;
+    }
+
+    #tag-img3 {
+        height: 24px;
+        width: 24px;
+        position: relative;
+        left: -5px;
+        top: 6px;
+    }
+
+    #tag-p3 {
+        font-size: 17px;
+        top: 8px;
+
+    }
+
+    #value-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0px;
+        text-align: left;
+        position: relative;
+        top: 40px;
+    }
+
+    #value-head {
+        font-size: 44px;
+        width: 250%;
+        padding-top: 20px;
+    }
+
+    #value-sub {
+        font-size: 18px;
+        width: 300%;
+        padding-top: 15px;
+    }
+
+    #value-img-1 {
+        position: relative;
+        left: -30%;
+        width: 110%;
+    }
+
+    #value-head-1 {
+        font-size: 26px;
+        width: 400px;
+        position: relative;
+        left: -25%;
+    }
+
+    #value-sub-1 {
+        font-size: 16px;
+        width: 100%;
+        position: relative;
+        left: -25%;
+        text-align: left;
+
+    }
+
+    #value-img-2 {
+        position: relative;
+        width: 115%;
+        left: 15%;
+        top: 18.5%;
+    }
+
+    #value-head-2 {
+        font-size: 26px;
+        width: 400px;
+        position: relative;
+        left: 22%;
+        top: 28%;
+    }
+
+    #value-sub-2 {
+        font-size: 16px;
+        width: 400px;
+        position: relative;
+        left: 20%;
+        top: 31%;
+
+    }
+
+    #final-cta {
+        width: 300%;
+        height: auto;
+        position: relative;
+        left: -75%;
+    }
+}
+
