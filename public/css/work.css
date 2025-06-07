@@ -311,7 +311,7 @@ h1 {
 
   .brand-foot {
     position: relative;
-    top: 200px;
+    top: 1200px;
     background-color: #010409;
     width: 100%;
     padding-bottom: 70px;
@@ -459,10 +459,10 @@ h1 {
         left: 104px;
         top: 21px;
     }
-    footer{
+    .brand-foot{
         position: relative;
 
-        top: 500px;
+        top: 700px;
     }
 }
 @media (min-width:992px){
@@ -519,8 +519,8 @@ h1 {
         width: 50%;
         padding-top: 70px;
     }
-     footer {
-        top: 0px;
+     .brand-foot {
+        top: 200px;
     }
         .brand-foot {
         position: relative;
