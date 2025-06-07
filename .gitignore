@@ -1,0 +1,14 @@
+# Ignore environment files
+.env
+
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# OS/IDE files
+.DS_Store
+*.swp
+.vscode/

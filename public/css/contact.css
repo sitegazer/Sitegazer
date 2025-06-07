@@ -375,7 +375,7 @@ input {
 
 }
 
-#final-cta {
+#final {
     width: 80%;
     position: relative;
     top: 300px;
@@ -633,7 +633,7 @@ input {
         position: absolute;
     }
 
-    #final-cta {
+    #final {
         position: relative;
         top: 870px;
         justify-self: center;
@@ -830,10 +830,10 @@ input {
     #link2 ul {
         list-style: none;
         padding: 0;
-        margin: 10px;
+        width: 20%;
         position: absolute;
         top: 80px;
-        right: -60%;
+        left: 69%;
     }
 
     #link3 {
@@ -856,7 +856,8 @@ input {
         margin: 10px;
         position: absolute;
         top: 80px;
-        right: -90%;
+        width: 20%;
+        left:84%;
     }
 
     #link3 ul li a {
@@ -919,7 +920,7 @@ input {
         visibility: visible;
     }
 
-    #final-cta {
+    #final {
         width: 50%;
     }
 
@@ -939,7 +940,7 @@ input {
         left: -25px;
     }
 
-    #final-cta {
+    #final {
         width: 40%;
     }
 

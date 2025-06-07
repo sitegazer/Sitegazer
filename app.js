@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 app.get('/contact', (req, res) => {
     res.sendFile(path.join(__dirname , 'public' , 'contact.html'));
-    });
+    }); 
 
 app.get('/services', (req, res) => {
     res.sendFile(path.join(__dirname , 'public' , 'service.html'));
@@ -29,6 +29,9 @@ app.get('/about', (req, res) => {
 });
 app.get('/blog', (req, res) => {
     res.sendFile(path.join(__dirname , 'public' , 'blog.html'));
+});
+app.get('/work', (req, res) => {
+    res.sendFile(path.join(__dirname , 'public' , 'work.html'));
 });
 
 app.use(express.json()); // For JSON body

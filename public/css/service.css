@@ -650,10 +650,10 @@ h1 {
     #link2 ul {
         list-style: none;
         padding: 0;
-        margin: 10px;
+        width: 20%;
         position: absolute;
         top: 80px;
-        right: -50%;
+        left: 64%;
     }
 
     #link3 {
@@ -676,7 +676,8 @@ h1 {
         margin: 10px;
         position: absolute;
         top: 80px;
-        right: -80%;
+        width: 20%;
+        left:79%;
     }
 
     #link3 ul li a {
